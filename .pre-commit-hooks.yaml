@@ -1,0 +1,6 @@
+- id: method-sorter-hook
+  name: method-sorter-hook
+  description: Sort Python class methods using configurable method groups.
+  entry: method-sorter-hook
+  language: python
+  types: [python]

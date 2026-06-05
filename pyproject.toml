@@ -1,0 +1,15 @@
+[project]
+name = "method-sorter-hook"
+version = "0.1.0"
+description = "Customizable Python pre-commit hook for sorting class methods."
+requires-python = ">=3.9"
+dependencies = [
+  "libcst>=1.0.0",
+]
+
+[project.scripts]
+method-sorter-hook = "hook.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"

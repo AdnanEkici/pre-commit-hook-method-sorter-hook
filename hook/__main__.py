@@ -1,3 +1,7 @@
-from hook.cli import main
+from __future__ import annotations
 
-raise SystemExit(main())
+from hook.command_line import main
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
